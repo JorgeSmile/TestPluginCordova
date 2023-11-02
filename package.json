@@ -1,25 +1,23 @@
 {
-  "name": "com.myapps.testplugincordova",
-  "displayName": "TestPluginCordova",
+  "name": "cordova-plugin-entelfingerplugin",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Biometric lector plugin 4Finger.",
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "cordova-android": "^12.0.1",
-    "cordova-ios": "^7.0.1"
-  },
   "cordova": {
+    "id": "cordova-plugin-entelfingerplugin",
     "platforms": [
       "ios",
       "android"
     ]
+  },
+  "author": "Jorge Salas ",
+  "license": "MIT",
+  "dependencies": {
+    "xcode": "^2.1.0"
   }
+  
 }
